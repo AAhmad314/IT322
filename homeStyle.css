@@ -16,6 +16,17 @@ background-color:#333;
 opacity:.80;
 }
 
+img {
+width: 250px;
+height: 250px;
+}
+
+
+.active{
+background-color:##fdfffb;
+border:2px solid #333;
+}
+
 ul{
 list-style-type:none;
 margin: 0;
@@ -39,10 +50,6 @@ li a:hover:not(.active){
 background-color:#1111;
 }
 
-.active{
-background-color:#4CAF50;
-}
-
 .center{
 text-align: center;
 }
@@ -53,7 +60,7 @@ margin: 0 auto;
 }
 
 .form{
-border:medium solid blue;
+border:medium solid black;
 margin:10 350;
 border-radius:20px;
 padding-bottom:5px;
